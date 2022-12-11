@@ -1,0 +1,166 @@
+/* Style the header of the web page */
+header {
+     background-image : url("../images/flywheel.jpeg");
+     background-color : #B3B3B3;
+     padding : 50px;
+}
+
+/* Style the heading */
+ h1 {
+     text-align : center;
+     color : #000000;
+     text-transform : uppercase;
+}
+
+/* Style the heading */
+ h2 {
+     color : #000000;
+     text-transform : uppercase;
+     text-align : center;
+}
+
+/* Style the aside where the images are located */
+ aside a {
+     background : #486B02;
+     color : #36454F;
+}
+
+/* Change the background color of the section */
+ section {
+     background : #A9A9A9;
+     float : left;
+     width : 40%;
+     font-size : 1.5em;
+}
+
+/* Style the images */
+ a img {
+     width : 200px;
+     border-radius : 50%;
+     border : black solid 2px;
+     margin-bottom : 10px;
+}
+
+/* Style the body */
+ body {
+     padding : 5px 10px;
+     margin-left : 25px;
+     margin-right : 25px;
+}
+
+/* Style the navigation */
+ nav {
+     margin : 0 auto;
+     text-align : center;
+}
+
+/* Style the navgation links */
+ nav a {
+     display : inline-block;
+     border-radius : 10px;
+     margin : 50px;
+     text-decoration : none;
+     padding : 10px 40px;
+     font-size : 1.5em;
+     background : #FFFFFF;
+     opacity : 0.5;
+}
+
+/* Style the active link */
+ nav a.active {
+     background : #B4F8C8;
+     opacity : 1;
+}
+
+/* Style main as flex for positioning */
+ main {
+     display : flex;
+}
+
+/* Style the left class */
+ .left {
+     display : flex;
+     flex-direction : column;
+     align-items : center;
+     justify-content : center;
+     margin : 0;
+     width : 20%;
+     background : #486B02;
+}
+
+/* Style the right class */
+ .right {
+     display : flex;
+     flex-direction : column;
+     width : 80%;
+     background-color : #FAF0E6;
+     flex-flow : column nowrap;
+}
+
+/* Style the table */
+ table {
+     font : normal normal normal 14px/30px Arial, Helvetica, sans-serif;
+     width : 75%;
+     margin-right : auto;
+     margin-left : auto;
+}
+
+/* Style the heading of the table */
+ th {
+     background : #486B02;
+     background-image : linear-gradient(#486B02, #a3c585);
+     border : #32cd32 solid 2px;
+     border-bottom : 4px solid #32cd32;
+     font-size : 18px;
+     font-weight : bold;
+}
+
+/* Style the top/left corner of the table */
+ th:first-child {
+     border-radius : 25px 0 0 0;
+     text-align : left;
+     padding-left : 5px;
+}
+
+/* Style the top/right corner of the table */
+ th:last-child {
+     border-radius : 0 25px 0 0;
+}
+
+/* Style the table rows of the tables. */
+ tr {
+     background-color : #c6f6c6;
+     opacity : 0.6;
+}
+
+/* Style the table row for when you hover over it */
+ tr:hover {
+     background-color : #c6f6c6;
+     opacity : 1;
+     color : #000000;
+}
+
+/* Align the text in the first column of the table */
+ tr td:first-child {
+     text-align : left;
+}
+
+/* Align the text in the second column of the table */
+ tr td:nth-child(2) {
+     text-align : center;
+}
+
+/* Align the text in the third column of the table */
+ tr td:nth-child(3) {
+     text-align : center;
+}
+
+/* Style the cells of the table */
+ td {
+     padding : 5px;
+     color : #808080;
+     background-color : #c6f6c6;
+     border-radius : 2px;
+     font-size : 18px;
+     text-shadow : 1px 1px #008000;
+}
